@@ -1,5 +1,5 @@
 apply plugin: 'java'
 
 dependencies {
-  testCompile group: 'testng', name: 'testng', version: '6.+'
+  testCompile group: 'org.testng', name: 'testng', version: '6.+'
 }
