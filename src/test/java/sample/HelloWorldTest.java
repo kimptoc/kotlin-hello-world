@@ -11,6 +11,6 @@ class HelloWorldTest {
   public void tryHelloWorld(){
     HelloWorld hw = new HelloWorld();
     String result = hw.go();
-    assertEquals("foo",result);     
+    assertEquals("Hello from Java",result);     
   }
 }
