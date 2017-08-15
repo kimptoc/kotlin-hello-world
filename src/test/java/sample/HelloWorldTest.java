@@ -5,7 +5,6 @@ import static org.testng.Assert.*;
 
 class HelloWorldTest {
 
-  // TODO
   @Test
   public void tryHelloWorld(){
     HelloWorld hw = new HelloWorld();
