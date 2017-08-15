@@ -6,4 +6,7 @@ class JavaHello {
     System.out.println("Hello from Java");
   }
 
+  pubic String go() {
+    return "Hello from Java";
+  }
 }
