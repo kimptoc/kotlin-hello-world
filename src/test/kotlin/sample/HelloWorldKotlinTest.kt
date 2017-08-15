@@ -5,7 +5,7 @@ import org.junit.Assert.*
 
 class HelloWorldKotlinTest {
 
-  test fun basic() {
+  test fun basics() {
     assertEquals(4,5)
   }
 }
