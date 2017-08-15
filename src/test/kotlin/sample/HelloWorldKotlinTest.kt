@@ -1,11 +1,13 @@
 package sample
 
-import org.junit.Test as test
 import org.junit.Assert.*
+import org.junit.Test
 
 class HelloWorldKotlinTest {
 
-  test fun basics() {
-    assertEquals(4,5)
-  }
+    @Test
+    fun basics() {
+        val sut = HelloWorldKotlin()
+        assertEquals("Hello from Kotlin", sut.go())
+    }
 }
