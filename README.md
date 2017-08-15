@@ -2,4 +2,6 @@
 
 [![Build Status](https://travis-ci.org/kimptoc/kotlin-hello-world.svg?branch=master)](https://travis-ci.org/kimptoc/kotlin-hello-world)
 
-Lets start with some Java...
+Minimal project that uses Java and Kotlin, built using gradle - see travisci build.
+
+Also has Java and Kotlin tests.
