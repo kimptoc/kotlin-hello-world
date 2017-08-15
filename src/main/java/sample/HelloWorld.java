@@ -1,1 +1,9 @@
-.
+package sample;
+
+class JavaHello {
+
+  public static void main(String[] args) {
+    System.out.println("Hello from Java");
+  }
+
+}
