@@ -1,5 +1,9 @@
 apply plugin: 'java'
 
+test {
+  testLogging.showStandardStreams = true
+}
+
 repositories {
   mavenCentral()
 }
